@@ -67,6 +67,96 @@ c = a + b
 print("add is ",c)
 
 
+TODO:
+1) wap to find area of rectangle
+
+Enter l
+1.2
+Enter b
+2.2
+Area is ..........
+
+2) Convert temp from C to F
+
+Enter temo in C
+temp in F is ....
+
+
+3) find total and percentage
+
+Enter marks in math
+67
+Enter marks in phy
+89
+Enter marks in chem
+100
+
+total = ?
+per  = ?
+
+
+4)Print UserName
+---------------------
+
+Sample input 1:
+------------------
+
+Enter the name
+
+Johnson
+
+Sample Output 1,
+
+Welcome Johnson
+
+
+Sample Input 2:
+
+Enter the name
+Slain Poison
+
+Sample Output 2:
+
+Welcome Slain Poison
+
+
+5)Bill Generation
+----------------------
+Tom were to a movie with his friends in a multiplex theatre and during break time he bought pizzas, puffs and cool drinks. Consider the following prices
+  • Rs 100/pizza
+  • Rs 20/puffs
+  • Rs 10/coldrink
+  Generate a bill for What Tom has bought.
+
+  sample Input 1:
+  ----------------
+  Enter the no of pizzas bought: 10
+  Enter them- of puffs bought: 12
+  Enter the no of cold drinks bought:5
+
+  Sample Output 1:
+  -------------------
+  Bill Details
+  No of pizzas:10
+  No of puffs:12
+  No of colddrinks:5
+  Total price = 1290
+  ENJOY THE SHOW!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
