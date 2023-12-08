@@ -5,6 +5,7 @@ c = 10
 print ("price of pizza is",a)
 print ("price of puffs is",b)
 print ("price of cold drinks is",c)
+
 print ("no of pizza : ")
 x = float(input())
 print ("no of puffs : ")
