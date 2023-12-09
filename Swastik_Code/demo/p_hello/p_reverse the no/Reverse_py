@@ -1,6 +1,0 @@
-# code for reverse the no.
-num = int(input("enter 3 digit no"))              #312
-a = num % 10                                      #2
-b = num // 100                                    #3
-c = b % 10
-print ("reverse no is",c)
