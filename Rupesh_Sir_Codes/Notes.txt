@@ -149,6 +149,108 @@ Tom were to a movie with his friends in a multiplex theatre and during break tim
 
 
 
+9th Dec 2023 (Saturday )
+Operators:
+===============
+arithmetic
+=============
+
++
+-
+*
+/
+// (floor division)   quotient
+%  (modulus)   remainder
+** (exponent)
+
+relational :
+=============
+>
+<
+>=
+<=
+==
+!=
+
+Logical Operators
+====================
+and
+or
+not
+
+Identity
+===========
+is
+is like
+
+Membership
+===============
+in
+not in
+
+animals = ["cat","dog","goat","chicken","lion","tiger"]
+
+cat in animals  : true if present else return false
+
+cat not in animals :   false
+
+
+assingment :
+==============
+=
++=
+-=
+*=
+/=
+//=
+**=
+%=
+
+
+x = 10
+
+x = x + 1   or   x += 1
+
+print(x)  #11
+
+
+x -= 5    is same as   x = x - 5
+
+x *=5     x = x * 5
+
+
+
+TODO:
+1) reverse a 4 digit number
+
+2) find denominations of rs 500, 200,100,50,10
+
+Enter any amount
+2670
+
+OP:
+500 x 4
+200 x 3
+100 x 0
+50  x 1
+10  x 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
