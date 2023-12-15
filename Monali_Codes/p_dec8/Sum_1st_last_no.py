@@ -1,9 +1,9 @@
-# print("enter any 4 digit no:-")
-# num=int(input())
-# a=num%10
-# b=num//1000
-# sum=a+b
-# print(sum)
+print("enter any 4 digit no:-")
+num=int(input())
+a=num%10
+b=num//1000
+sum=a+b
+print(sum)
 
 num=int(input("enter any 3 digit no:-"))
 a=num%10
