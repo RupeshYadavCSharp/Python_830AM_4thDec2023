@@ -218,7 +218,17 @@ x -= 5    is same as   x = x - 5
 
 x *=5     x = x * 5
 
+#program to reverse a 3 digit number
+num = int(input("Enter any 3 digit number "))   #num = 123
 
+a = num % 10              #123 % 10 = 3
+
+b = (num // 10) % 10      #123 // 10 = 12 % 10 = 2
+
+c = num // 100            #123 // 100 = 1
+
+rev = a * 100 + b * 10 + c*1
+print("rev is ",rev)
 
 TODO:
 1) reverse a 4 digit number
@@ -234,6 +244,113 @@ OP:
 100 x 0
 50  x 1
 10  x 2
+
+
+
+15th December Friday
+
+Decision making in Python :
+===========================
+1) if
+2) if else
+3) if elif
+
+
+syntax:
+
+if(condition):
+	stmt1
+	stmt2
+
+
+stmt3
+
+
+Note: conditions can be given only by using relational operators
+>  <  >=  <= == !=
+
+eg 1:
+num = 10
+
+if(num > 5):
+    print("Hello Python ")
+
+print("Hello Java ")
+
+
+OP:
+Hello Python
+Hello Java
+
+
+if else :
+==========
+syntax
+
+if(condition):
+	stms
+else:
+	stms
+
+
+eg 2:
+num = 10
+
+if(num > 5):
+    print("Hello Python ")
+else:
+    print("Hello Java ")
+
+OP:
+Hello Python
+
+
+#program to find positive and negative number
+num = int(input("Enter any number "))
+
+if(num > 0):
+    print("Positive ")
+else:
+    print("negative ")
+
+
+
+TODO 1:
+find if the entered number is odd or even
+
+
+TODO 2:
+find profit and loss statement
+
+OP:
+Enter cost price
+1450
+
+Enter selling price
+1300
+
+
+loss of Rs 150
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
