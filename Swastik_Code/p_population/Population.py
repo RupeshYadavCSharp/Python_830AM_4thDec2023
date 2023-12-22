@@ -1,7 +1,7 @@
 #code for finding illiterate mens and womens in town
 tp=80000
 print("total population is",tp)                    #tp (total population) = 80000
-tm=int(((52/100)*80000))                           #tm (total mens) = (52/100)*80000 = 41600
+tm=int(((52/100)*tp))                           #tm (total mens) = (52/100)*80000 = 41600
 print("total mens are",tm)
 print("total womens are",tp-tm)                    #tw (total womens) = tp-tm = 38400
 tl=int(((48/100)*tp))                              #tl (total literacy) = (48/100)*80000 = 38400
