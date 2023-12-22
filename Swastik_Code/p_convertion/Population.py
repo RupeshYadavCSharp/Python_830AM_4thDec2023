@@ -1,3 +1,4 @@
+#code for finding illiterate men and women
 totalpopulation=80000
 totalmen=totalpopulation*52/100
 totalwomen=totalpopulation-totalmen
