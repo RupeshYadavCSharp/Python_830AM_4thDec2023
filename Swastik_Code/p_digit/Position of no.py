@@ -1,5 +1,5 @@
 #code for interchanging position of digits on tens place with digit on 100 place
-num=int(input("enter any four digit no\n"))         #4927
+num=int(input("enter any four digit no\n"))         #enter any four digit no 4927
 fd=num//1000                                        #fd=4927//1000=4
 sd=(num//100)%10                                    #sd=(4927//100)%10=9
 td=(num%100)//10                                    #td=(4927%100)//10=2

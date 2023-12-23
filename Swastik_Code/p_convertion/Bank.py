@@ -1,5 +1,5 @@
 #code for withdrawing money from bank
-num=int(input("enter amount\n"))                   #num=1360
+num=int(input("enter amount\n"))                   #enter amount=1360
 print("500 * ",num//500)                           #500 * 2
 af=num%500                                         #af=1360%500=360
 print("200 * ",af//200)                            #200 * 1
