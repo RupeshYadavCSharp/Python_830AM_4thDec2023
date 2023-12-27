@@ -12,3 +12,5 @@ elif(sal>=300000 and sal<=500000):
 elif(sal>=500000 ):
     tax4=30/100*sal
     print("tax is",tax4)
+
+
