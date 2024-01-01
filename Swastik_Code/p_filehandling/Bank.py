@@ -49,10 +49,10 @@ if(upin==fpin):
         f=open("D:\\log.txt","r")
         log=f.read()
         f.close()
-        obj=FPDF
+        obj=FPDF()
         obj.add_page()
-        obj.set_font(self="Arial",size=12)
-        obj.write(str(5),log)
+        obj.set_font("Arial",size=15)
+        obj.write(5,log)
         obj.output("D:\\log.pdf")
 else:
     print("invalid pin")
