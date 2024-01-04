@@ -1,5 +1,6 @@
 import datetime
 from fpdf import FPDF
+import pyttsx3
 
 upin=int(input("enter pin"))
 f=open("D:\\pin.txt","r")
@@ -9,8 +10,8 @@ if(upin==fpin):
     f=open("D:\\balance.txt","r")
     bal=int(f.read())
     f.close()
-    print("current balance is",bal)
-    choice=int(input("1.withdraw 2.deposit 3.changepin 4.show statement 5.print statement"))
+    print("current balance is ",bal)
+    choice=int(input("1.withdraw 2.deposit 3.changepin 4.show statement 5.print statement 6.read statement"))
     if(choice==1):
         amt=int(input("enter amount to be withdraw"))
         bal=bal-amt
@@ -54,6 +55,16 @@ if(upin==fpin):
         obj.set_font("Arial",size=15)
         obj.write(5,log)
         obj.output("D:\\log.pdf")
+    elif(choice==6):
+        f=open("D:\\balance.txt","r")
+        bal=f.read()
+        f.close()
+        obj=pyttsx3.init()
+        voices = obj.getProperty("voices")
+        obj.setProperty("voice", voices[1].id)
+        text=bal
+        obj.say(text)
+        obj.runAndWait()
 else:
     print("invalid pin")
     msg="invalid pin was entered on " + str(datetime.datetime.now()) + "\n"
