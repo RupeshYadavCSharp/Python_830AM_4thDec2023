@@ -11,7 +11,7 @@ if(upin==fpin):
     bal=int(f.read())
     f.close()
     print("current balance is ",bal)
-    choice=int(input("1.withdraw 2.deposit 3.changepin 4.show statement 5.print statement 6.read statement"))
+    choice=int(input("1.withdraw 2.deposit 3.changepin 4.show statement 5.print statement 6.read balance"))
     if(choice==1):
         amt=int(input("enter amount to be withdraw"))
         bal=bal-amt
