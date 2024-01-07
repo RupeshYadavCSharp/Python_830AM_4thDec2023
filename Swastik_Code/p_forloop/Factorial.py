@@ -1,5 +1,8 @@
-num=int(input("enter any number"))
-for i in range(1,num+1,1):
-    print(i,end="*")
-for j in range(num+1,num+1,1):
-    print(j,end="  ")
+num = int(input("Enter any number "))
+
+multi = 1
+
+for i in range(1,num + 1):   #i = 3
+    multi = multi * i    #sum = 3
+
+print("factorial  is ",multi)
