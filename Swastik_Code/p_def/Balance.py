@@ -1,6 +1,16 @@
 balance=0
-def readbalance():
+def readbal():
 	global balance
 	balance=int(input("enter balance"))
-def withdraw
-	
+def withdraw(amt):
+	amt=int(input("enter withdraw amt"))
+
+def deposit(amt):
+	amt=int(input("enter deposit amt"))
+
+def showbalance():
+
+	print(balance)
+def main():
+	print()
+main()
