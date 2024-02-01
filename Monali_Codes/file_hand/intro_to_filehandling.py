@@ -75,3 +75,12 @@
 # print(b)
 # a.close()
 
+# a=open("D://balance.txt","r")
+# b=a.read()
+# print(b)
+# a.close()
+
+a=open("D:\\balance.txt","r")
+b=a.read()
+print(b)
+a.close()
